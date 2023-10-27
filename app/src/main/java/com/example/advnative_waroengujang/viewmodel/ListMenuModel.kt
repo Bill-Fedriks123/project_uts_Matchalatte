@@ -17,7 +17,7 @@ class ListMenuModel: ViewModel() {
                 "    \"name\": \"Ayam Saus Inggris\",\n" +
                 "    \"description\": \"Lorem ipsum dolor sit amet\",\n" +
                 "    \"price\": \"25000\",\n" +
-                "    \"photo\": \"https://www.dapurkobe.co.id/wp-content/uploads/ayam-kalasan-kremes.jpg\",\n" +
+                "    \"photo\": \"https://2.bp.blogspot.com/-CJx7QU8WEjM/WBGpdDkt3EI/AAAAAAAAAxA/lNGFehyV3-II_DCW3ZeBvmXIutazfZNMgCLcB/s1600/ayam%2Bbakar2.png\",\n" +
                 "    \"category\": \"Main Course\"\n" +
                 "  }"
         val json2 = "{\n" +
@@ -33,7 +33,7 @@ class ListMenuModel: ViewModel() {
                 "    \"name\": \"Ayam Kremes\",\n" +
                 "    \"description\": \"Lorem ipsum dolor sit amet\",\n" +
                 "    \"price\": \"25000\",\n" +
-                "    \"photo\": \"https://www.dapurkobe.co.id/wp-content/uploads/ayam-kalasan-kremes.jpg\",\n" +
+                "    \"photo\": \"https://www.jossdelapanbelas.com/wp-content/uploads/2022/02/Nasi-Bakar-Ayam-Kremes_prod-1024x1024.png\",\n" +
                 "    \"category\": \"Main Course\"\n" +
                 "  }"
         val json4 = "{\n" +
@@ -41,7 +41,7 @@ class ListMenuModel: ViewModel() {
                 "    \"name\": \"Es Teh\",\n" +
                 "    \"description\": \"Lorem ipsum dolor sit amet\",\n" +
                 "    \"price\": \"4000\",\n" +
-                "    \"photo\": \"https://www.dapurkobe.co.id/wp-content/uploads/ayam-kalasan-kremes.jpg\",\n" +
+                "    \"photo\": \"https://order.ayambakarpakde.com/wp-content/uploads/2021/12/ayam-bakar-pak-d-ala-carte-es-teh.png\",\n" +
                 "    \"category\": \"Drink\"\n" +
                 "  }"
         val json5 = "{\n" +
@@ -49,7 +49,7 @@ class ListMenuModel: ViewModel() {
                 "    \"name\": \"Es Jeruk\",\n" +
                 "    \"description\": \"Lorem ipsum dolor sit amet\",\n" +
                 "    \"price\": \"6000\",\n" +
-                "    \"photo\": \"https://www.dapurkobe.co.id/wp-content/uploads/ayam-kalasan-kremes.jpg\",\n" +
+                "    \"photo\": \"https://order.ayambakarpakde.com/wp-content/uploads/2021/12/ayam-bakar-pak-d-es-jeruk.png\",\n" +
                 "    \"category\": \"Drink\"\n" +
                 "  }"
 
