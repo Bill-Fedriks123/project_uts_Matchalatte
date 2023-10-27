@@ -46,4 +46,9 @@
             android:id="@+id/action_detailMenuFragment_to_listMenuFragment"
             app:destination="@id/listMenuFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/orderPopUpFragment"
+        android:name="com.example.advnative_waroengujang.view.OrderPopUpFragment"
+        android:label="fragment_order_pop_up"
+        tools:layout="@layout/fragment_order_pop_up" />
 </navigation>
