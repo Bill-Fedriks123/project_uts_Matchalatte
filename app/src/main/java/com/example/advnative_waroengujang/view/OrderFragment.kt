@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -39,6 +40,12 @@ class OrderFragment : Fragment() {
         listOrder.adapter = orderAdapter
         observeViewModel()
 
+//        val popUp = view.findViewById<RecyclerView>(R.id.btn_showPopUp)
+//
+//        button.setOnClickListener {
+//            val showPopUp = OrderPopUpFragment()
+//            showPopUp.show((activity as AppCompatActivity).supportFragmentManager. "showPopUp")
+//        }
 
     }
 
@@ -47,5 +54,4 @@ class OrderFragment : Fragment() {
             orderAdapter.updateListOrder(it)
         }
     }
-
 }
