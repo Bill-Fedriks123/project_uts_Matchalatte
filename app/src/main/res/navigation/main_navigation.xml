@@ -8,28 +8,28 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.advnative_waroengujang.view.HomeFragment"
-        android:label="Home"
+        android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/accountFragment"
         android:name="com.example.advnative_waroengujang.view.AccountFragment"
-        android:label="Account"
+        android:label="fragment_account"
         tools:layout="@layout/fragment_account" />
     <fragment
         android:id="@+id/orderFragment"
         android:name="com.example.advnative_waroengujang.view.OrderFragment"
-        android:label="Order"
+        android:label="fragment_order"
         tools:layout="@layout/fragment_order" />
     <fragment
         android:id="@+id/cartFragment"
         android:name="com.example.advnative_waroengujang.view.CartFragment"
-        android:label="Cart"
+        android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" />
     <fragment
         android:id="@+id/listMenuFragment"
         android:name="com.example.advnative_waroengujang.view.ListMenuFragment"
-        android:label="List Menu"
-        tools:layout="@layout/fragment_list_menu">
+        android:label="fragment_list_menu"
+        tools:layout="@layout/fragment_list_menu" >
         <action
             android:id="@+id/action_listMenuFragment_to_detailMenuFragment"
             app:destination="@id/detailMenuFragment" />
@@ -40,15 +40,15 @@
     <fragment
         android:id="@+id/detailMenuFragment"
         android:name="com.example.advnative_waroengujang.view.DetailMenuFragment"
-        android:label="Detail Menu"
-        tools:layout="@layout/fragment_detail_menu">
+        android:label="fragment_detail_menu"
+        tools:layout="@layout/fragment_detail_menu" >
         <action
             android:id="@+id/action_detailMenuFragment_to_listMenuFragment"
             app:destination="@id/listMenuFragment" />
     </fragment>
-    <activity
-        android:id="@+id/loginActivity"
-        android:name="com.example.advnative_waroengujang.view.LoginActivity"
-        android:label="Login"
-        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/orderPopUpFragment"
+        android:name="com.example.advnative_waroengujang.view.OrderPopUpFragment"
+        android:label="fragment_order_pop_up"
+        tools:layout="@layout/fragment_order_pop_up" />
 </navigation>
