@@ -38,6 +38,8 @@ class OrderFragment : Fragment() {
         listOrder.layoutManager = LinearLayoutManager(this.context)
         listOrder.adapter = orderAdapter
         observeViewModel()
+
+
     }
 
     private fun observeViewModel() {
@@ -45,4 +47,5 @@ class OrderFragment : Fragment() {
             orderAdapter.updateListOrder(it)
         }
     }
+
 }

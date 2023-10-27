@@ -16,7 +16,9 @@ class OrderAdapter(var orderList:ArrayList<Order>) : RecyclerView.Adapter<OrderA
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OrderViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val view = inflater.inflate(R.layout.order_item, parent, false)
+
         return OrderViewHolder(view)
+
     }
 
     override fun getItemCount(): Int = orderList.size
